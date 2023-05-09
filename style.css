@@ -1,0 +1,203 @@
+.logo{
+    width: fit-content;
+    height: 60px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+    border-radius: 30px;
+    padding: 10px 20px;
+    align-items: center;
+    
+    
+}
+
+
+header{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 20px;
+    
+    
+}
+
+header ul{
+    
+    font-size: 1.5rem;
+}
+
+header li{
+    display: inline-block;
+    list-style: none;
+    
+    
+}
+.nav{
+    
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    transition: 0.2s;
+    
+}
+
+.nav:hover{
+    color: #ea053a;
+}
+
+.visit{
+    
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-weight: 200;
+}
+
+
+
+
+.visit span{
+    display: block;
+    font-weight: bold;
+    color: #ea053a;
+}
+.logoheading{
+    position: absolute;
+    text-decoration: none;
+    color: #000000;
+    left: 120px;
+    margin-right: 40px;
+}
+
+.container{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+}
+
+.container h2{
+    font-weight: 400;
+}
+.container .info{
+    display: flex;
+    
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    width: max-content;
+    max-width: 60%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.container .info.info2{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .info.info4{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .info.info6{
+    display: flex;
+    flex-direction: column;
+}
+
+.container img{
+    padding: 20px;
+}
+.container .info6 img{
+    margin-top: 20px;
+}
+
+
+
+.container1{
+    width: 100%;
+    
+}
+
+.places{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    margin-top: 100px;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+
+   
+
+.blurbg{
+    background: linear-gradient(-45deg, #fd61ed 0%, #fabb67 100% );
+    transform: translate3d(0px, 20px, 0) scale(0.95);
+    filter: blur(60px);
+    opacity: var(0.7);
+    width: 370px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 80px;
+    z-index: -1;
+    
+}
+
+
+
+.container1 .tovisit{
+    text-align: center;
+    margin: 40px;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    
+}
+    
+    
+
+.places img{
+    border-radius: 40px;
+    width: 540px;
+    height: 350px;
+}
+.places h2{
+    font-weight: 400;
+}
+
+footer h2{
+    font-weight: 10;
+    font-size: 1rem;
+    padding: 40px;
+    
+    
+    
+}
+footer{
+    margin-top: 80px;
+    border-top: 1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+
